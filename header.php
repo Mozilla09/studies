@@ -18,3 +18,5 @@ wp_nav_menu($args);
 ?>
         </div>
     </header>
+
+<div class="header_block_1">Текст в шапке</div>
