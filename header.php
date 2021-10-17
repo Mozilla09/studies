@@ -18,3 +18,6 @@ wp_nav_menu($args);
 ?>
         </div>
     </header>
+    
+// Создал класс
+    <div class="block">Класс</div>
