@@ -2,22 +2,24 @@
 <html>
 
 <head>
-    <title>Шаблон</title>
+    <title>Сайт BMW</title>
 
     <?php wp_head(); ?>
 </head>
 
 <body>
-    <header>
-        <div class="topmenu">
-        <?php 
-$args = array(
-	'theme_location' => 'primary_menu'
-);
-wp_nav_menu($args);
-?>
-        </div>
-    </header>
-    
-// Создал класс
-    <div class="block">Класс</div>
+   
+
+
+
+    <div class="dropdown">
+  <button class="dropbtn">Модельный ряд BMW</button>
+  <div class="dropdown-content">
+    <a href="https://bmw-elitavtosibir.ru/all-models/bmw-x1/">BMW X1</a>
+    <a href="https://bmw-elitavtosibir.ru/all-models/bmw-x2/">BMW X2</a>
+    <a href="https://bmw-elitavtosibir.ru/all-models/bmw-x3/">BMW X3</a>
+  </div>
+</div>
+
+
+
